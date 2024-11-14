@@ -272,8 +272,11 @@ header>.container{
 
 .projects {
     text-align: center;
+    height:100%;
     background-color: #efe4fc; /* 배경색 추가 */
-    padding: 60px 0; /* 위아래 패딩 추가 */
+    padding-top:60px;
+    padding-bottom:90px;
+
 }
 .projects h4{
     display:inline-block;
