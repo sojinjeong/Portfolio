@@ -426,6 +426,10 @@ header>.container{
     object-fit: cover;
     border-radius: 8px;
 }
+.link{
+    margin-top:10px;
+    font-weight:500;
+}
 
 .contact {
     background-color: #f8eff4; /* 섹션 배경색 */
