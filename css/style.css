@@ -177,14 +177,14 @@ header>.container{
     margin-bottom:50px;
 }
 .row_box{
-    border:2px solid #000;
+    border:2px solid #530d53;
     border-radius:15px;
     width:300px;
     padding:20px 0px 20px 20px;
 }
 .about_box i{
     font-size:35px;
-    color:#0a365f;
+    color:#b442c4;
     margin-top:8px;
 }
 .notice{
@@ -192,7 +192,7 @@ header>.container{
 }
 .notice h5{
     font-size:23px;
-    color:#0a365f;
+    color:#000000;
 }
 .skills{
     background-color:#ffd1e7;
@@ -272,7 +272,7 @@ header>.container{
 
 .projects {
     text-align: center;
-    background-color: #e3d7f0; /* 배경색 추가 */
+    background-color: #efe4fc; /* 배경색 추가 */
     padding: 60px 0; /* 위아래 패딩 추가 */
 }
 .projects h4{
@@ -352,7 +352,6 @@ header>.container{
 .back {
     background-color: #f5f5fa; /* 카드 뒷면 배경색 */
     transform: rotateY(180deg);
-    padding: 20px;
     color: #000;
     display: flex;
     flex-direction: column;
@@ -360,9 +359,14 @@ header>.container{
     align-items: center;
     cursor: pointer;
 }
-
-
-
+.back h5{
+    font-size:20px;
+    line-height:2em;
+}
+.back a:hover{
+    font-weight:400;
+    color:#530d53;
+}
 
 .is-flipped {
     transform: rotateY(180deg); /* 카드 뒤집기 */
@@ -424,8 +428,8 @@ header>.container{
 }
 
 .contact {
-    background-color: #ffffff; /* 섹션 배경색 */
-    padding: 60px 0;
+    background-color: #f8eff4; /* 섹션 배경색 */
+    padding: 80px 0;
     text-align: center;
     color: #333;
 }
@@ -520,24 +524,6 @@ header>.container{
 
 .contact-form button:hover {
     background-color: rgb(146, 16, 107);
-}
-
-/* 소셜 미디어 아이콘 스타일 */
-.social-icons {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.social-icons a {
-    font-size: 24px;
-    color: #666;
-    transition: color 0.3s;
-}
-
-.social-icons a:hover {
-    color: #bd3ca1;
 }
 
 .footer{
